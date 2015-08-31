@@ -1,6 +1,6 @@
 {
   "name": "truecaller_query",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "A module which provides simple gateway to TrueCaller's query api",
   "main": "index.js",
   "scripts": {
