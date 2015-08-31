@@ -1,6 +1,6 @@
 {
   "name": "truecaller_query",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "A module which provides simple gateway to TrueCaller's query api",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,9 @@
   "dependencies": {
     "chalk": "^1.1.1",
     "request": "^2.61.0"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/BatuhanK/truecaller_query.git"
   }
 }
