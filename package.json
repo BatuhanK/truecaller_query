@@ -1,6 +1,6 @@
 {
   "name": "truecaller_query",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A module which provides simple gateway to TrueCaller's query api",
   "main": "index.js",
   "scripts": {
@@ -9,11 +9,12 @@
   "author": "Batuhan KATIRCI <katircib@gmail.com> (http://batuhan.org)",
   "license": "ISC",
   "dependencies": {
+    "async": "^1.4.2",
     "chalk": "^1.1.1",
     "request": "^2.61.0"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/BatuhanK/truecaller_query.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BatuhanK/truecaller_query.git"
   }
 }
