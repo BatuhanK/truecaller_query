@@ -38,6 +38,9 @@ TrueCaller.prototype.search = function(number,callback){
             return callback(new Error('TrueCaller initialization error, your parameters are wrong or expired. Please doublecheck!'));
         }
         var responseObject = JSON.parse(body);
+        if(responseObject.message){
+            return callback(new Error(responseObject.message));
+        }
         if(!responseObject.data[0].name){
             return callback(new Error('Number not found, sorry.'));
         }
